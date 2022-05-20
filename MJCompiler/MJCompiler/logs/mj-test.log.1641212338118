@@ -1,0 +1,73 @@
+INFO  13:18:30,101 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  13:18:30,151 - #2 program
+INFO  13:18:30,151 - #36 Keske
+INFO  13:18:30,151 - #18 const
+INFO  13:18:30,152 - #36 int
+INFO  13:18:30,152 - #36 pi
+INFO  13:18:30,153 - #23 =
+INFO  13:18:30,153 - #34 3
+INFO  13:18:30,153 - #16 ;
+INFO  13:18:30,154 - #18 const
+INFO  13:18:30,155 - #36 pi
+INFO  13:18:30,155 - #36 a
+INFO  13:18:30,155 - #23 =
+INFO  13:18:30,155 - #34 2
+INFO  13:18:30,155 - #16 ;
+INFO  13:18:30,156 - #5 {
+INFO  13:18:30,156 - #27 void
+INFO  13:18:30,156 - #36 main
+INFO  13:18:30,156 - #28 (
+INFO  13:18:30,156 - #29 )
+INFO  13:18:30,156 - #5 {
+INFO  13:18:30,157 - #7 }
+INFO  13:18:30,158 - #7 }
+INFO  13:18:30,184 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    ConDeclList(
+      Type(
+       pi
+      ) [Type]
+      ConDecl(
+       a
+        Const_n(
+         2
+        ) [Const_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDeclList]
+  ) [ConVarDeclList_con]
+  MethDecl(
+   main
+    MoreVarDeclList_e(
+    ) [MoreVarDeclList_e]
+    Statements(
+      MoreStatements_e(
+      ) [MoreStatements_e]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  13:18:30,184 - ===================================
+ERROR 13:18:30,188 - Neadekvatan tip pi na liniji 4
+INFO  13:18:30,189 - ===================================
+ERROR 13:18:30,191 - Parsiranje NIJE uspesno zavrseno!

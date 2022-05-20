@@ -1,0 +1,73 @@
+INFO  13:25:01,955 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  13:25:01,990 - #2 program
+INFO  13:25:01,990 - #36 Keske
+INFO  13:25:01,990 - #18 const
+INFO  13:25:01,991 - #36 int
+INFO  13:25:01,991 - #36 pi
+INFO  13:25:01,991 - #23 =
+INFO  13:25:01,991 - #34 3
+INFO  13:25:01,991 - #16 ;
+INFO  13:25:01,993 - #18 const
+INFO  13:25:01,995 - #36 int
+INFO  13:25:01,995 - #36 pi
+INFO  13:25:01,995 - #23 =
+INFO  13:25:01,995 - #34 2
+INFO  13:25:01,995 - #16 ;
+INFO  13:25:01,995 - #5 {
+INFO  13:25:01,995 - #27 void
+INFO  13:25:01,996 - #36 main
+INFO  13:25:01,996 - #28 (
+INFO  13:25:01,996 - #29 )
+INFO  13:25:01,996 - #5 {
+INFO  13:25:01,997 - #7 }
+INFO  13:25:01,998 - #7 }
+INFO  13:25:02,008 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       pi
+        Const_n(
+         2
+        ) [Const_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDeclList]
+  ) [ConVarDeclList_con]
+  MethDecl(
+   main
+    MoreVarDeclList_e(
+    ) [MoreVarDeclList_e]
+    Statements(
+      MoreStatements_e(
+      ) [MoreStatements_e]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  13:25:02,008 - ===================================
+ERROR 13:25:02,012 - Dvostruka definicija konstante pi na liniji 4
+INFO  13:25:02,013 - ===================================
+ERROR 13:25:02,015 - Parsiranje NIJE uspesno zavrseno!

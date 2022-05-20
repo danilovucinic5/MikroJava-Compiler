@@ -1,0 +1,193 @@
+INFO  09:52:24,087 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  09:52:24,108 - #2 program
+INFO  09:52:24,108 - #36 Keske
+INFO  09:52:24,108 - #18 const
+INFO  09:52:24,109 - #36 int
+INFO  09:52:24,109 - #36 pi
+INFO  09:52:24,109 - #23 =
+INFO  09:52:24,109 - #34 3
+INFO  09:52:24,109 - #16 ;
+INFO  09:52:24,110 - #36 int
+INFO  09:52:24,111 - #36 x
+INFO  09:52:24,111 - #17 ,
+INFO  09:52:24,112 - #36 y
+INFO  09:52:24,113 - #24 [
+INFO  09:52:24,113 - #25 ]
+INFO  09:52:24,113 - #16 ;
+INFO  09:52:24,114 - #5 {
+INFO  09:52:24,114 - #27 void
+INFO  09:52:24,114 - #36 main
+INFO  09:52:24,114 - #28 (
+INFO  09:52:24,115 - #29 )
+INFO  09:52:24,115 - #36 int
+INFO  09:52:24,115 - #36 a
+INFO  09:52:24,115 - #17 ,
+INFO  09:52:24,115 - #36 b
+INFO  09:52:24,115 - #24 [
+INFO  09:52:24,115 - #25 ]
+INFO  09:52:24,115 - #16 ;
+INFO  09:52:24,115 - #5 {
+INFO  09:52:24,116 - #36 x
+INFO  09:52:24,116 - #23 =
+INFO  09:52:24,116 - #34 3
+INFO  09:52:24,117 - #16 ;
+INFO  09:52:24,119 - #36 b
+INFO  09:52:24,119 - #24 [
+INFO  09:52:24,120 - #34 2
+INFO  09:52:24,120 - #25 ]
+INFO  09:52:24,120 - #23 =
+INFO  09:52:24,120 - #34 7
+INFO  09:52:24,120 - #16 ;
+INFO  09:52:24,120 - #7 }
+INFO  09:52:24,121 - #7 }
+INFO  09:52:24,127 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_comma(
+        VarDecl(
+         y
+          Brackets_yes(
+          ) [Brackets_yes]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    Main(
+     main
+    ) [Main]
+    MoreVarDeclList_yes(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         a
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_comma(
+          VarDecl(
+           b
+            Brackets_yes(
+            ) [Brackets_yes]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+      MoreVarDeclList_e(
+      ) [MoreVarDeclList_e]
+    ) [MoreVarDeclList_yes]
+    Statements(
+      MoreStatements_yes(
+        Statement_single(
+          Statement_designator(
+            DesignatorStatement_assignop_expr(
+              DesignatorVar(
+               x
+              ) [DesignatorVar]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                ExprMore_first(
+                  Term(
+                    TermList_first(
+                      Factor(
+                        ExprMinus_e(
+                        ) [ExprMinus_e]
+                        Factor_number(
+                         3
+                        ) [Factor_number]
+                      ) [Factor]
+                    ) [TermList_first]
+                  ) [Term]
+                ) [ExprMore_first]
+              ) [Expr]
+            ) [DesignatorStatement_assignop_expr]
+          ) [Statement_designator]
+        ) [Statement_single]
+        MoreStatements_yes(
+          Statement_single(
+            Statement_designator(
+              DesignatorStatement_assignop_expr(
+                DesignatorElem(
+                  DesignatorArrName(
+                   b
+                  ) [DesignatorArrName]
+                  Expr(
+                    ExprMore_first(
+                      Term(
+                        TermList_first(
+                          Factor(
+                            ExprMinus_e(
+                            ) [ExprMinus_e]
+                            Factor_number(
+                             2
+                            ) [Factor_number]
+                          ) [Factor]
+                        ) [TermList_first]
+                      ) [Term]
+                    ) [ExprMore_first]
+                  ) [Expr]
+                ) [DesignatorElem]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  ExprMore_first(
+                    Term(
+                      TermList_first(
+                        Factor(
+                          ExprMinus_e(
+                          ) [ExprMinus_e]
+                          Factor_number(
+                           7
+                          ) [Factor_number]
+                        ) [Factor]
+                      ) [TermList_first]
+                    ) [Term]
+                  ) [ExprMore_first]
+                ) [Expr]
+              ) [DesignatorStatement_assignop_expr]
+            ) [Statement_designator]
+          ) [Statement_single]
+          MoreStatements_e(
+          ) [MoreStatements_e]
+        ) [MoreStatements_yes]
+      ) [MoreStatements_yes]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  09:52:24,127 - ===================================
+INFO  09:52:24,130 - ===================================
+INFO  09:52:24,138 - Parsiranje uspesno zavrseno!

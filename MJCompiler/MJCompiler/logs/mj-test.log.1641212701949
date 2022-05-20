@@ -1,0 +1,72 @@
+INFO  13:23:25,688 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  13:23:25,731 - #2 program
+INFO  13:23:25,731 - #36 Keske
+INFO  13:23:25,731 - #18 const
+INFO  13:23:25,732 - #36 int
+INFO  13:23:25,732 - #36 pi
+INFO  13:23:25,733 - #23 =
+INFO  13:23:25,733 - #34 3
+INFO  13:23:25,733 - #16 ;
+INFO  13:23:25,734 - #18 const
+INFO  13:23:25,735 - #36 int
+INFO  13:23:25,735 - #36 pi
+INFO  13:23:25,735 - #23 =
+INFO  13:23:25,735 - #34 2
+INFO  13:23:25,735 - #16 ;
+INFO  13:23:25,735 - #5 {
+INFO  13:23:25,736 - #27 void
+INFO  13:23:25,736 - #36 main
+INFO  13:23:25,736 - #28 (
+INFO  13:23:25,736 - #29 )
+INFO  13:23:25,736 - #5 {
+INFO  13:23:25,736 - #7 }
+INFO  13:23:25,737 - #7 }
+INFO  13:23:25,752 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       pi
+        Const_n(
+         2
+        ) [Const_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDeclList]
+  ) [ConVarDeclList_con]
+  MethDecl(
+   main
+    MoreVarDeclList_e(
+    ) [MoreVarDeclList_e]
+    Statements(
+      MoreStatements_e(
+      ) [MoreStatements_e]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  13:23:25,752 - ===================================
+INFO  13:23:25,754 - ===================================
+INFO  13:23:25,756 - Parsiranje uspesno zavrseno!

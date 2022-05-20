@@ -1,0 +1,51 @@
+INFO  13:04:12,461 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  13:04:12,999 - #2 program
+INFO  13:04:13,000 - #36 Keske
+INFO  13:04:13,000 - #18 const
+INFO  13:04:13,016 - #36 int
+INFO  13:04:13,016 - #36 pi
+INFO  13:04:13,029 - #23 =
+INFO  13:04:13,029 - #34 3
+INFO  13:04:13,029 - #16 ;
+INFO  13:04:13,067 - #5 {
+INFO  13:04:13,077 - #27 void
+INFO  13:04:13,078 - #36 main
+INFO  13:04:13,078 - #28 (
+INFO  13:04:13,078 - #29 )
+INFO  13:04:13,078 - #5 {
+INFO  13:04:13,089 - #7 }
+INFO  13:04:13,102 - #7 }
+INFO  13:04:13,142 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       pi
+        Const_n(
+         3
+        ) [Const_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDeclList]
+  ) [ConVarDeclList_con]
+  MethDecl(
+   main
+    MoreVarDeclList_e(
+    ) [MoreVarDeclList_e]
+    Statements(
+      MoreStatements_e(
+      ) [MoreStatements_e]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  13:04:13,143 - ===================================
+INFO  13:04:13,149 - ===================================
+INFO  13:04:13,151 - Parsiranje uspesno zavrseno!

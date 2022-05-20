@@ -1,0 +1,1452 @@
+INFO  14:37:22,436 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  14:37:22,456 - #2 program
+INFO  14:37:22,457 - #36 test301
+INFO  14:37:22,457 - #18 const
+INFO  14:37:22,458 - #36 int
+INFO  14:37:22,458 - #36 nula
+INFO  14:37:22,458 - #23 =
+INFO  14:37:22,458 - #34 0
+INFO  14:37:22,458 - #16 ;
+INFO  14:37:22,459 - #18 const
+INFO  14:37:22,460 - #36 int
+INFO  14:37:22,460 - #36 jedan
+INFO  14:37:22,460 - #23 =
+INFO  14:37:22,460 - #34 1
+INFO  14:37:22,460 - #16 ;
+INFO  14:37:22,460 - #18 const
+INFO  14:37:22,460 - #36 int
+INFO  14:37:22,461 - #36 pet
+INFO  14:37:22,461 - #23 =
+INFO  14:37:22,461 - #34 5
+INFO  14:37:22,461 - #16 ;
+INFO  14:37:22,461 - #36 int
+INFO  14:37:22,461 - #36 niz
+INFO  14:37:22,461 - #24 [
+INFO  14:37:22,461 - #25 ]
+INFO  14:37:22,461 - #16 ;
+INFO  14:37:22,463 - #36 char
+INFO  14:37:22,463 - #36 nizch
+INFO  14:37:22,463 - #24 [
+INFO  14:37:22,463 - #25 ]
+INFO  14:37:22,463 - #16 ;
+INFO  14:37:22,463 - #5 {
+INFO  14:37:22,463 - #27 void
+INFO  14:37:22,464 - #36 main
+INFO  14:37:22,464 - #28 (
+INFO  14:37:22,464 - #29 )
+INFO  14:37:22,464 - #36 int
+INFO  14:37:22,464 - #36 bodovi
+INFO  14:37:22,464 - #16 ;
+INFO  14:37:22,465 - #36 bool
+INFO  14:37:22,465 - #36 bt
+INFO  14:37:22,465 - #16 ;
+INFO  14:37:22,465 - #5 {
+INFO  14:37:22,465 - #36 bodovi
+INFO  14:37:22,466 - #23 =
+INFO  14:37:22,466 - #34 0
+INFO  14:37:22,467 - #16 ;
+INFO  14:37:22,468 - #36 bodovi
+INFO  14:37:22,469 - #13 ++
+INFO  14:37:22,469 - #16 ;
+INFO  14:37:22,469 - #36 bodovi
+INFO  14:37:22,469 - #23 =
+INFO  14:37:22,469 - #36 bodovi
+INFO  14:37:22,469 - #12 +
+INFO  14:37:22,469 - #36 jedan
+INFO  14:37:22,470 - #16 ;
+INFO  14:37:22,470 - #36 bodovi
+INFO  14:37:22,470 - #23 =
+INFO  14:37:22,470 - #36 bodovi
+INFO  14:37:22,470 - #8 *
+INFO  14:37:22,470 - #36 pet
+INFO  14:37:22,471 - #16 ;
+INFO  14:37:22,471 - #36 bodovi
+INFO  14:37:22,471 - #15 --
+INFO  14:37:22,471 - #16 ;
+INFO  14:37:22,472 - #26 print
+INFO  14:37:22,472 - #28 (
+INFO  14:37:22,472 - #36 bodovi
+INFO  14:37:22,472 - #29 )
+INFO  14:37:22,474 - #16 ;
+INFO  14:37:22,474 - #36 niz
+INFO  14:37:22,475 - #23 =
+INFO  14:37:22,475 - #3 new
+INFO  14:37:22,475 - #36 int
+INFO  14:37:22,475 - #24 [
+INFO  14:37:22,475 - #34 3
+INFO  14:37:22,475 - #25 ]
+INFO  14:37:22,475 - #16 ;
+INFO  14:37:22,475 - #36 niz
+INFO  14:37:22,475 - #24 [
+INFO  14:37:22,476 - #36 nula
+INFO  14:37:22,476 - #25 ]
+INFO  14:37:22,476 - #23 =
+INFO  14:37:22,476 - #36 jedan
+INFO  14:37:22,476 - #16 ;
+INFO  14:37:22,476 - #36 niz
+INFO  14:37:22,476 - #24 [
+INFO  14:37:22,476 - #34 1
+INFO  14:37:22,476 - #25 ]
+INFO  14:37:22,476 - #23 =
+INFO  14:37:22,476 - #34 2
+INFO  14:37:22,476 - #16 ;
+INFO  14:37:22,477 - #36 niz
+INFO  14:37:22,477 - #24 [
+INFO  14:37:22,477 - #36 niz
+INFO  14:37:22,477 - #24 [
+INFO  14:37:22,477 - #36 jedan
+INFO  14:37:22,477 - #25 ]
+INFO  14:37:22,477 - #25 ]
+INFO  14:37:22,477 - #23 =
+INFO  14:37:22,477 - #36 niz
+INFO  14:37:22,477 - #24 [
+INFO  14:37:22,477 - #36 niz
+INFO  14:37:22,477 - #24 [
+INFO  14:37:22,477 - #34 0
+INFO  14:37:22,477 - #25 ]
+INFO  14:37:22,477 - #25 ]
+INFO  14:37:22,477 - #8 *
+INFO  14:37:22,477 - #34 3
+INFO  14:37:22,477 - #16 ;
+INFO  14:37:22,477 - #36 bodovi
+INFO  14:37:22,477 - #23 =
+INFO  14:37:22,478 - #36 niz
+INFO  14:37:22,478 - #24 [
+INFO  14:37:22,478 - #34 2
+INFO  14:37:22,478 - #25 ]
+INFO  14:37:22,478 - #9 /
+INFO  14:37:22,478 - #36 niz
+INFO  14:37:22,478 - #24 [
+INFO  14:37:22,478 - #34 0
+INFO  14:37:22,478 - #25 ]
+INFO  14:37:22,478 - #16 ;
+INFO  14:37:22,478 - #26 print
+INFO  14:37:22,479 - #28 (
+INFO  14:37:22,479 - #36 bodovi
+INFO  14:37:22,479 - #29 )
+INFO  14:37:22,479 - #16 ;
+INFO  14:37:22,479 - #26 print
+INFO  14:37:22,479 - #28 (
+INFO  14:37:22,479 - #36 niz
+INFO  14:37:22,479 - #24 [
+INFO  14:37:22,479 - #34 2
+INFO  14:37:22,479 - #25 ]
+INFO  14:37:22,479 - #29 )
+INFO  14:37:22,479 - #16 ;
+INFO  14:37:22,479 - #36 nizch
+INFO  14:37:22,479 - #23 =
+INFO  14:37:22,479 - #3 new
+INFO  14:37:22,479 - #36 char
+INFO  14:37:22,479 - #24 [
+INFO  14:37:22,479 - #34 3
+INFO  14:37:22,479 - #25 ]
+INFO  14:37:22,479 - #16 ;
+INFO  14:37:22,479 - #36 nizch
+INFO  14:37:22,480 - #24 [
+INFO  14:37:22,480 - #34 0
+INFO  14:37:22,480 - #25 ]
+INFO  14:37:22,480 - #23 =
+INFO  14:37:22,480 - #37 a
+INFO  14:37:22,480 - #16 ;
+INFO  14:37:22,480 - #36 nizch
+INFO  14:37:22,480 - #24 [
+INFO  14:37:22,480 - #36 jedan
+INFO  14:37:22,480 - #25 ]
+INFO  14:37:22,480 - #23 =
+INFO  14:37:22,480 - #37 b
+INFO  14:37:22,480 - #16 ;
+INFO  14:37:22,480 - #36 nizch
+INFO  14:37:22,480 - #24 [
+INFO  14:37:22,480 - #36 pet
+INFO  14:37:22,480 - #4 -
+INFO  14:37:22,480 - #34 3
+INFO  14:37:22,481 - #25 ]
+INFO  14:37:22,481 - #23 =
+INFO  14:37:22,481 - #37 c
+INFO  14:37:22,481 - #16 ;
+INFO  14:37:22,481 - #26 print
+INFO  14:37:22,481 - #28 (
+INFO  14:37:22,481 - #36 nizch
+INFO  14:37:22,481 - #24 [
+INFO  14:37:22,481 - #34 1
+INFO  14:37:22,481 - #25 ]
+INFO  14:37:22,481 - #29 )
+INFO  14:37:22,481 - #16 ;
+INFO  14:37:22,481 - #26 print
+INFO  14:37:22,482 - #28 (
+INFO  14:37:22,482 - #36 nizch
+INFO  14:37:22,482 - #24 [
+INFO  14:37:22,482 - #36 jedan
+INFO  14:37:22,482 - #8 *
+INFO  14:37:22,482 - #34 2
+INFO  14:37:22,482 - #25 ]
+INFO  14:37:22,482 - #29 )
+INFO  14:37:22,482 - #16 ;
+INFO  14:37:22,482 - #36 bodovi
+INFO  14:37:22,482 - #23 =
+INFO  14:37:22,482 - #36 bodovi
+INFO  14:37:22,482 - #12 +
+INFO  14:37:22,482 - #28 (
+INFO  14:37:22,482 - #36 pet
+INFO  14:37:22,482 - #8 *
+INFO  14:37:22,482 - #36 jedan
+INFO  14:37:22,482 - #4 -
+INFO  14:37:22,482 - #34 1
+INFO  14:37:22,482 - #29 )
+INFO  14:37:22,483 - #8 *
+INFO  14:37:22,483 - #36 bodovi
+INFO  14:37:22,483 - #4 -
+INFO  14:37:22,483 - #28 (
+INFO  14:37:22,483 - #34 3
+INFO  14:37:22,483 - #10 %
+INFO  14:37:22,483 - #34 2
+INFO  14:37:22,483 - #12 +
+INFO  14:37:22,483 - #34 3
+INFO  14:37:22,483 - #8 *
+INFO  14:37:22,483 - #34 2
+INFO  14:37:22,483 - #4 -
+INFO  14:37:22,484 - #34 3
+INFO  14:37:22,484 - #29 )
+INFO  14:37:22,484 - #16 ;
+INFO  14:37:22,484 - #26 print
+INFO  14:37:22,484 - #28 (
+INFO  14:37:22,484 - #36 bodovi
+INFO  14:37:22,484 - #29 )
+INFO  14:37:22,484 - #16 ;
+INFO  14:37:22,484 - #32 read
+INFO  14:37:22,484 - #28 (
+INFO  14:37:22,484 - #36 bodovi
+INFO  14:37:22,484 - #29 )
+INFO  14:37:22,484 - #16 ;
+INFO  14:37:22,484 - #36 bt
+INFO  14:37:22,484 - #23 =
+INFO  14:37:22,484 - #35 1
+INFO  14:37:22,484 - #16 ;
+INFO  14:37:22,484 - #7 }
+INFO  14:37:22,485 - #7 }
+INFO  14:37:22,497 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_con(
+        ConVarDeclList_con(
+          ConVarDeclList_con(
+            ConVarDeclList_e(
+            ) [ConVarDeclList_e]
+            ConDeclList(
+              Type(
+               int
+              ) [Type]
+              ConDecl(
+               nula
+                Const_n(
+                 0
+                ) [Const_n]
+              ) [ConDecl]
+              ConDeclMore_e(
+              ) [ConDeclMore_e]
+            ) [ConDeclList]
+          ) [ConVarDeclList_con]
+          ConDeclList(
+            Type(
+             int
+            ) [Type]
+            ConDecl(
+             jedan
+              Const_n(
+               1
+              ) [Const_n]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConDeclList]
+        ) [ConVarDeclList_con]
+        ConDeclList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           pet
+            Const_n(
+             5
+            ) [Const_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclList]
+      ) [ConVarDeclList_con]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         niz
+          Brackets_yes(
+          ) [Brackets_yes]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarDecl(
+       nizch
+        Brackets_yes(
+        ) [Brackets_yes]
+      ) [VarDecl]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    Main(
+     main
+    ) [Main]
+    MoreVarDeclList_yes(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         bodovi
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      MoreVarDeclList_yes(
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl(
+           bt
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        MoreVarDeclList_e(
+        ) [MoreVarDeclList_e]
+      ) [MoreVarDeclList_yes]
+    ) [MoreVarDeclList_yes]
+    Statements(
+      MoreStatements_yes(
+        Statement_single(
+          Statement_designator(
+            DesignatorStatement_assignop_expr(
+              DesignatorVar(
+               bodovi
+              ) [DesignatorVar]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                ExprMore_first(
+                  Term(
+                    TermList_first(
+                      Factor(
+                        ExprMinus_e(
+                        ) [ExprMinus_e]
+                        Factor_number(
+                         0
+                        ) [Factor_number]
+                      ) [Factor]
+                    ) [TermList_first]
+                  ) [Term]
+                ) [ExprMore_first]
+              ) [Expr]
+            ) [DesignatorStatement_assignop_expr]
+          ) [Statement_designator]
+        ) [Statement_single]
+        MoreStatements_yes(
+          Statement_single(
+            Statement_designator(
+              DesignatorStatement_plusplus(
+                DesignatorVar(
+                 bodovi
+                ) [DesignatorVar]
+              ) [DesignatorStatement_plusplus]
+            ) [Statement_designator]
+          ) [Statement_single]
+          MoreStatements_yes(
+            Statement_single(
+              Statement_designator(
+                DesignatorStatement_assignop_expr(
+                  DesignatorVar(
+                   bodovi
+                  ) [DesignatorVar]
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    ExprMore_yes(
+                      ExprMore_first(
+                        Term(
+                          TermList_first(
+                            Factor(
+                              ExprMinus_e(
+                              ) [ExprMinus_e]
+                              Factor_designator(
+                                DesignatorVar(
+                                 bodovi
+                                ) [DesignatorVar]
+                              ) [Factor_designator]
+                            ) [Factor]
+                          ) [TermList_first]
+                        ) [Term]
+                      ) [ExprMore_first]
+                      Addop_plus(
+                      ) [Addop_plus]
+                      Term(
+                        TermList_first(
+                          Factor(
+                            ExprMinus_e(
+                            ) [ExprMinus_e]
+                            Factor_designator(
+                              DesignatorVar(
+                               jedan
+                              ) [DesignatorVar]
+                            ) [Factor_designator]
+                          ) [Factor]
+                        ) [TermList_first]
+                      ) [Term]
+                    ) [ExprMore_yes]
+                  ) [Expr]
+                ) [DesignatorStatement_assignop_expr]
+              ) [Statement_designator]
+            ) [Statement_single]
+            MoreStatements_yes(
+              Statement_single(
+                Statement_designator(
+                  DesignatorStatement_assignop_expr(
+                    DesignatorVar(
+                     bodovi
+                    ) [DesignatorVar]
+                    Assignop(
+                    ) [Assignop]
+                    Expr(
+                      ExprMore_first(
+                        Term(
+                          TermList_more(
+                            TermList_first(
+                              Factor(
+                                ExprMinus_e(
+                                ) [ExprMinus_e]
+                                Factor_designator(
+                                  DesignatorVar(
+                                   bodovi
+                                  ) [DesignatorVar]
+                                ) [Factor_designator]
+                              ) [Factor]
+                            ) [TermList_first]
+                            Mulop_multiple(
+                            ) [Mulop_multiple]
+                            Factor(
+                              ExprMinus_e(
+                              ) [ExprMinus_e]
+                              Factor_designator(
+                                DesignatorVar(
+                                 pet
+                                ) [DesignatorVar]
+                              ) [Factor_designator]
+                            ) [Factor]
+                          ) [TermList_more]
+                        ) [Term]
+                      ) [ExprMore_first]
+                    ) [Expr]
+                  ) [DesignatorStatement_assignop_expr]
+                ) [Statement_designator]
+              ) [Statement_single]
+              MoreStatements_yes(
+                Statement_single(
+                  Statement_designator(
+                    DesignatorStatement_minusminus(
+                      DesignatorVar(
+                       bodovi
+                      ) [DesignatorVar]
+                    ) [DesignatorStatement_minusminus]
+                  ) [Statement_designator]
+                ) [Statement_single]
+                MoreStatements_yes(
+                  Statement_single(
+                    Statement_print(
+                      Expr(
+                        ExprMore_first(
+                          Term(
+                            TermList_first(
+                              Factor(
+                                ExprMinus_e(
+                                ) [ExprMinus_e]
+                                Factor_designator(
+                                  DesignatorVar(
+                                   bodovi
+                                  ) [DesignatorVar]
+                                ) [Factor_designator]
+                              ) [Factor]
+                            ) [TermList_first]
+                          ) [Term]
+                        ) [ExprMore_first]
+                      ) [Expr]
+                      CommaNumConst_e(
+                      ) [CommaNumConst_e]
+                    ) [Statement_print]
+                  ) [Statement_single]
+                  MoreStatements_yes(
+                    Statement_single(
+                      Statement_designator(
+                        DesignatorStatement_assignop_expr(
+                          DesignatorVar(
+                           niz
+                          ) [DesignatorVar]
+                          Assignop(
+                          ) [Assignop]
+                          Expr(
+                            ExprMore_first(
+                              Term(
+                                TermList_first(
+                                  Factor(
+                                    ExprMinus_e(
+                                    ) [ExprMinus_e]
+                                    Factor_new(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      Expr(
+                                        ExprMore_first(
+                                          Term(
+                                            TermList_first(
+                                              Factor(
+                                                ExprMinus_e(
+                                                ) [ExprMinus_e]
+                                                Factor_number(
+                                                 3
+                                                ) [Factor_number]
+                                              ) [Factor]
+                                            ) [TermList_first]
+                                          ) [Term]
+                                        ) [ExprMore_first]
+                                      ) [Expr]
+                                    ) [Factor_new]
+                                  ) [Factor]
+                                ) [TermList_first]
+                              ) [Term]
+                            ) [ExprMore_first]
+                          ) [Expr]
+                        ) [DesignatorStatement_assignop_expr]
+                      ) [Statement_designator]
+                    ) [Statement_single]
+                    MoreStatements_yes(
+                      Statement_single(
+                        Statement_designator(
+                          DesignatorStatement_assignop_expr(
+                            DesignatorElem(
+                              DesignatorArrName(
+                               niz
+                              ) [DesignatorArrName]
+                              Expr(
+                                ExprMore_first(
+                                  Term(
+                                    TermList_first(
+                                      Factor(
+                                        ExprMinus_e(
+                                        ) [ExprMinus_e]
+                                        Factor_designator(
+                                          DesignatorVar(
+                                           nula
+                                          ) [DesignatorVar]
+                                        ) [Factor_designator]
+                                      ) [Factor]
+                                    ) [TermList_first]
+                                  ) [Term]
+                                ) [ExprMore_first]
+                              ) [Expr]
+                            ) [DesignatorElem]
+                            Assignop(
+                            ) [Assignop]
+                            Expr(
+                              ExprMore_first(
+                                Term(
+                                  TermList_first(
+                                    Factor(
+                                      ExprMinus_e(
+                                      ) [ExprMinus_e]
+                                      Factor_designator(
+                                        DesignatorVar(
+                                         jedan
+                                        ) [DesignatorVar]
+                                      ) [Factor_designator]
+                                    ) [Factor]
+                                  ) [TermList_first]
+                                ) [Term]
+                              ) [ExprMore_first]
+                            ) [Expr]
+                          ) [DesignatorStatement_assignop_expr]
+                        ) [Statement_designator]
+                      ) [Statement_single]
+                      MoreStatements_yes(
+                        Statement_single(
+                          Statement_designator(
+                            DesignatorStatement_assignop_expr(
+                              DesignatorElem(
+                                DesignatorArrName(
+                                 niz
+                                ) [DesignatorArrName]
+                                Expr(
+                                  ExprMore_first(
+                                    Term(
+                                      TermList_first(
+                                        Factor(
+                                          ExprMinus_e(
+                                          ) [ExprMinus_e]
+                                          Factor_number(
+                                           1
+                                          ) [Factor_number]
+                                        ) [Factor]
+                                      ) [TermList_first]
+                                    ) [Term]
+                                  ) [ExprMore_first]
+                                ) [Expr]
+                              ) [DesignatorElem]
+                              Assignop(
+                              ) [Assignop]
+                              Expr(
+                                ExprMore_first(
+                                  Term(
+                                    TermList_first(
+                                      Factor(
+                                        ExprMinus_e(
+                                        ) [ExprMinus_e]
+                                        Factor_number(
+                                         2
+                                        ) [Factor_number]
+                                      ) [Factor]
+                                    ) [TermList_first]
+                                  ) [Term]
+                                ) [ExprMore_first]
+                              ) [Expr]
+                            ) [DesignatorStatement_assignop_expr]
+                          ) [Statement_designator]
+                        ) [Statement_single]
+                        MoreStatements_yes(
+                          Statement_single(
+                            Statement_designator(
+                              DesignatorStatement_assignop_expr(
+                                DesignatorElem(
+                                  DesignatorArrName(
+                                   niz
+                                  ) [DesignatorArrName]
+                                  Expr(
+                                    ExprMore_first(
+                                      Term(
+                                        TermList_first(
+                                          Factor(
+                                            ExprMinus_e(
+                                            ) [ExprMinus_e]
+                                            Factor_designator(
+                                              DesignatorElem(
+                                                DesignatorArrName(
+                                                 niz
+                                                ) [DesignatorArrName]
+                                                Expr(
+                                                  ExprMore_first(
+                                                    Term(
+                                                      TermList_first(
+                                                        Factor(
+                                                          ExprMinus_e(
+                                                          ) [ExprMinus_e]
+                                                          Factor_designator(
+                                                            DesignatorVar(
+                                                             jedan
+                                                            ) [DesignatorVar]
+                                                          ) [Factor_designator]
+                                                        ) [Factor]
+                                                      ) [TermList_first]
+                                                    ) [Term]
+                                                  ) [ExprMore_first]
+                                                ) [Expr]
+                                              ) [DesignatorElem]
+                                            ) [Factor_designator]
+                                          ) [Factor]
+                                        ) [TermList_first]
+                                      ) [Term]
+                                    ) [ExprMore_first]
+                                  ) [Expr]
+                                ) [DesignatorElem]
+                                Assignop(
+                                ) [Assignop]
+                                Expr(
+                                  ExprMore_first(
+                                    Term(
+                                      TermList_more(
+                                        TermList_first(
+                                          Factor(
+                                            ExprMinus_e(
+                                            ) [ExprMinus_e]
+                                            Factor_designator(
+                                              DesignatorElem(
+                                                DesignatorArrName(
+                                                 niz
+                                                ) [DesignatorArrName]
+                                                Expr(
+                                                  ExprMore_first(
+                                                    Term(
+                                                      TermList_first(
+                                                        Factor(
+                                                          ExprMinus_e(
+                                                          ) [ExprMinus_e]
+                                                          Factor_designator(
+                                                            DesignatorElem(
+                                                              DesignatorArrName(
+                                                               niz
+                                                              ) [DesignatorArrName]
+                                                              Expr(
+                                                                ExprMore_first(
+                                                                  Term(
+                                                                    TermList_first(
+                                                                      Factor(
+                                                                        ExprMinus_e(
+                                                                        ) [ExprMinus_e]
+                                                                        Factor_number(
+                                                                         0
+                                                                        ) [Factor_number]
+                                                                      ) [Factor]
+                                                                    ) [TermList_first]
+                                                                  ) [Term]
+                                                                ) [ExprMore_first]
+                                                              ) [Expr]
+                                                            ) [DesignatorElem]
+                                                          ) [Factor_designator]
+                                                        ) [Factor]
+                                                      ) [TermList_first]
+                                                    ) [Term]
+                                                  ) [ExprMore_first]
+                                                ) [Expr]
+                                              ) [DesignatorElem]
+                                            ) [Factor_designator]
+                                          ) [Factor]
+                                        ) [TermList_first]
+                                        Mulop_multiple(
+                                        ) [Mulop_multiple]
+                                        Factor(
+                                          ExprMinus_e(
+                                          ) [ExprMinus_e]
+                                          Factor_number(
+                                           3
+                                          ) [Factor_number]
+                                        ) [Factor]
+                                      ) [TermList_more]
+                                    ) [Term]
+                                  ) [ExprMore_first]
+                                ) [Expr]
+                              ) [DesignatorStatement_assignop_expr]
+                            ) [Statement_designator]
+                          ) [Statement_single]
+                          MoreStatements_yes(
+                            Statement_single(
+                              Statement_designator(
+                                DesignatorStatement_assignop_expr(
+                                  DesignatorVar(
+                                   bodovi
+                                  ) [DesignatorVar]
+                                  Assignop(
+                                  ) [Assignop]
+                                  Expr(
+                                    ExprMore_first(
+                                      Term(
+                                        TermList_more(
+                                          TermList_first(
+                                            Factor(
+                                              ExprMinus_e(
+                                              ) [ExprMinus_e]
+                                              Factor_designator(
+                                                DesignatorElem(
+                                                  DesignatorArrName(
+                                                   niz
+                                                  ) [DesignatorArrName]
+                                                  Expr(
+                                                    ExprMore_first(
+                                                      Term(
+                                                        TermList_first(
+                                                          Factor(
+                                                            ExprMinus_e(
+                                                            ) [ExprMinus_e]
+                                                            Factor_number(
+                                                             2
+                                                            ) [Factor_number]
+                                                          ) [Factor]
+                                                        ) [TermList_first]
+                                                      ) [Term]
+                                                    ) [ExprMore_first]
+                                                  ) [Expr]
+                                                ) [DesignatorElem]
+                                              ) [Factor_designator]
+                                            ) [Factor]
+                                          ) [TermList_first]
+                                          Mulop_divide(
+                                          ) [Mulop_divide]
+                                          Factor(
+                                            ExprMinus_e(
+                                            ) [ExprMinus_e]
+                                            Factor_designator(
+                                              DesignatorElem(
+                                                DesignatorArrName(
+                                                 niz
+                                                ) [DesignatorArrName]
+                                                Expr(
+                                                  ExprMore_first(
+                                                    Term(
+                                                      TermList_first(
+                                                        Factor(
+                                                          ExprMinus_e(
+                                                          ) [ExprMinus_e]
+                                                          Factor_number(
+                                                           0
+                                                          ) [Factor_number]
+                                                        ) [Factor]
+                                                      ) [TermList_first]
+                                                    ) [Term]
+                                                  ) [ExprMore_first]
+                                                ) [Expr]
+                                              ) [DesignatorElem]
+                                            ) [Factor_designator]
+                                          ) [Factor]
+                                        ) [TermList_more]
+                                      ) [Term]
+                                    ) [ExprMore_first]
+                                  ) [Expr]
+                                ) [DesignatorStatement_assignop_expr]
+                              ) [Statement_designator]
+                            ) [Statement_single]
+                            MoreStatements_yes(
+                              Statement_single(
+                                Statement_print(
+                                  Expr(
+                                    ExprMore_first(
+                                      Term(
+                                        TermList_first(
+                                          Factor(
+                                            ExprMinus_e(
+                                            ) [ExprMinus_e]
+                                            Factor_designator(
+                                              DesignatorVar(
+                                               bodovi
+                                              ) [DesignatorVar]
+                                            ) [Factor_designator]
+                                          ) [Factor]
+                                        ) [TermList_first]
+                                      ) [Term]
+                                    ) [ExprMore_first]
+                                  ) [Expr]
+                                  CommaNumConst_e(
+                                  ) [CommaNumConst_e]
+                                ) [Statement_print]
+                              ) [Statement_single]
+                              MoreStatements_yes(
+                                Statement_single(
+                                  Statement_print(
+                                    Expr(
+                                      ExprMore_first(
+                                        Term(
+                                          TermList_first(
+                                            Factor(
+                                              ExprMinus_e(
+                                              ) [ExprMinus_e]
+                                              Factor_designator(
+                                                DesignatorElem(
+                                                  DesignatorArrName(
+                                                   niz
+                                                  ) [DesignatorArrName]
+                                                  Expr(
+                                                    ExprMore_first(
+                                                      Term(
+                                                        TermList_first(
+                                                          Factor(
+                                                            ExprMinus_e(
+                                                            ) [ExprMinus_e]
+                                                            Factor_number(
+                                                             2
+                                                            ) [Factor_number]
+                                                          ) [Factor]
+                                                        ) [TermList_first]
+                                                      ) [Term]
+                                                    ) [ExprMore_first]
+                                                  ) [Expr]
+                                                ) [DesignatorElem]
+                                              ) [Factor_designator]
+                                            ) [Factor]
+                                          ) [TermList_first]
+                                        ) [Term]
+                                      ) [ExprMore_first]
+                                    ) [Expr]
+                                    CommaNumConst_e(
+                                    ) [CommaNumConst_e]
+                                  ) [Statement_print]
+                                ) [Statement_single]
+                                MoreStatements_yes(
+                                  Statement_single(
+                                    Statement_designator(
+                                      DesignatorStatement_assignop_expr(
+                                        DesignatorVar(
+                                         nizch
+                                        ) [DesignatorVar]
+                                        Assignop(
+                                        ) [Assignop]
+                                        Expr(
+                                          ExprMore_first(
+                                            Term(
+                                              TermList_first(
+                                                Factor(
+                                                  ExprMinus_e(
+                                                  ) [ExprMinus_e]
+                                                  Factor_new(
+                                                    Type(
+                                                     char
+                                                    ) [Type]
+                                                    Expr(
+                                                      ExprMore_first(
+                                                        Term(
+                                                          TermList_first(
+                                                            Factor(
+                                                              ExprMinus_e(
+                                                              ) [ExprMinus_e]
+                                                              Factor_number(
+                                                               3
+                                                              ) [Factor_number]
+                                                            ) [Factor]
+                                                          ) [TermList_first]
+                                                        ) [Term]
+                                                      ) [ExprMore_first]
+                                                    ) [Expr]
+                                                  ) [Factor_new]
+                                                ) [Factor]
+                                              ) [TermList_first]
+                                            ) [Term]
+                                          ) [ExprMore_first]
+                                        ) [Expr]
+                                      ) [DesignatorStatement_assignop_expr]
+                                    ) [Statement_designator]
+                                  ) [Statement_single]
+                                  MoreStatements_yes(
+                                    Statement_single(
+                                      Statement_designator(
+                                        DesignatorStatement_assignop_expr(
+                                          DesignatorElem(
+                                            DesignatorArrName(
+                                             nizch
+                                            ) [DesignatorArrName]
+                                            Expr(
+                                              ExprMore_first(
+                                                Term(
+                                                  TermList_first(
+                                                    Factor(
+                                                      ExprMinus_e(
+                                                      ) [ExprMinus_e]
+                                                      Factor_number(
+                                                       0
+                                                      ) [Factor_number]
+                                                    ) [Factor]
+                                                  ) [TermList_first]
+                                                ) [Term]
+                                              ) [ExprMore_first]
+                                            ) [Expr]
+                                          ) [DesignatorElem]
+                                          Assignop(
+                                          ) [Assignop]
+                                          Expr(
+                                            ExprMore_first(
+                                              Term(
+                                                TermList_first(
+                                                  Factor(
+                                                    ExprMinus_e(
+                                                    ) [ExprMinus_e]
+                                                    Factor_char(
+                                                     a
+                                                    ) [Factor_char]
+                                                  ) [Factor]
+                                                ) [TermList_first]
+                                              ) [Term]
+                                            ) [ExprMore_first]
+                                          ) [Expr]
+                                        ) [DesignatorStatement_assignop_expr]
+                                      ) [Statement_designator]
+                                    ) [Statement_single]
+                                    MoreStatements_yes(
+                                      Statement_single(
+                                        Statement_designator(
+                                          DesignatorStatement_assignop_expr(
+                                            DesignatorElem(
+                                              DesignatorArrName(
+                                               nizch
+                                              ) [DesignatorArrName]
+                                              Expr(
+                                                ExprMore_first(
+                                                  Term(
+                                                    TermList_first(
+                                                      Factor(
+                                                        ExprMinus_e(
+                                                        ) [ExprMinus_e]
+                                                        Factor_designator(
+                                                          DesignatorVar(
+                                                           jedan
+                                                          ) [DesignatorVar]
+                                                        ) [Factor_designator]
+                                                      ) [Factor]
+                                                    ) [TermList_first]
+                                                  ) [Term]
+                                                ) [ExprMore_first]
+                                              ) [Expr]
+                                            ) [DesignatorElem]
+                                            Assignop(
+                                            ) [Assignop]
+                                            Expr(
+                                              ExprMore_first(
+                                                Term(
+                                                  TermList_first(
+                                                    Factor(
+                                                      ExprMinus_e(
+                                                      ) [ExprMinus_e]
+                                                      Factor_char(
+                                                       b
+                                                      ) [Factor_char]
+                                                    ) [Factor]
+                                                  ) [TermList_first]
+                                                ) [Term]
+                                              ) [ExprMore_first]
+                                            ) [Expr]
+                                          ) [DesignatorStatement_assignop_expr]
+                                        ) [Statement_designator]
+                                      ) [Statement_single]
+                                      MoreStatements_yes(
+                                        Statement_single(
+                                          Statement_designator(
+                                            DesignatorStatement_assignop_expr(
+                                              DesignatorElem(
+                                                DesignatorArrName(
+                                                 nizch
+                                                ) [DesignatorArrName]
+                                                Expr(
+                                                  ExprMore_yes(
+                                                    ExprMore_first(
+                                                      Term(
+                                                        TermList_first(
+                                                          Factor(
+                                                            ExprMinus_e(
+                                                            ) [ExprMinus_e]
+                                                            Factor_designator(
+                                                              DesignatorVar(
+                                                               pet
+                                                              ) [DesignatorVar]
+                                                            ) [Factor_designator]
+                                                          ) [Factor]
+                                                        ) [TermList_first]
+                                                      ) [Term]
+                                                    ) [ExprMore_first]
+                                                    Addop_minus(
+                                                    ) [Addop_minus]
+                                                    Term(
+                                                      TermList_first(
+                                                        Factor(
+                                                          ExprMinus_e(
+                                                          ) [ExprMinus_e]
+                                                          Factor_number(
+                                                           3
+                                                          ) [Factor_number]
+                                                        ) [Factor]
+                                                      ) [TermList_first]
+                                                    ) [Term]
+                                                  ) [ExprMore_yes]
+                                                ) [Expr]
+                                              ) [DesignatorElem]
+                                              Assignop(
+                                              ) [Assignop]
+                                              Expr(
+                                                ExprMore_first(
+                                                  Term(
+                                                    TermList_first(
+                                                      Factor(
+                                                        ExprMinus_e(
+                                                        ) [ExprMinus_e]
+                                                        Factor_char(
+                                                         c
+                                                        ) [Factor_char]
+                                                      ) [Factor]
+                                                    ) [TermList_first]
+                                                  ) [Term]
+                                                ) [ExprMore_first]
+                                              ) [Expr]
+                                            ) [DesignatorStatement_assignop_expr]
+                                          ) [Statement_designator]
+                                        ) [Statement_single]
+                                        MoreStatements_yes(
+                                          Statement_single(
+                                            Statement_print(
+                                              Expr(
+                                                ExprMore_first(
+                                                  Term(
+                                                    TermList_first(
+                                                      Factor(
+                                                        ExprMinus_e(
+                                                        ) [ExprMinus_e]
+                                                        Factor_designator(
+                                                          DesignatorElem(
+                                                            DesignatorArrName(
+                                                             nizch
+                                                            ) [DesignatorArrName]
+                                                            Expr(
+                                                              ExprMore_first(
+                                                                Term(
+                                                                  TermList_first(
+                                                                    Factor(
+                                                                      ExprMinus_e(
+                                                                      ) [ExprMinus_e]
+                                                                      Factor_number(
+                                                                       1
+                                                                      ) [Factor_number]
+                                                                    ) [Factor]
+                                                                  ) [TermList_first]
+                                                                ) [Term]
+                                                              ) [ExprMore_first]
+                                                            ) [Expr]
+                                                          ) [DesignatorElem]
+                                                        ) [Factor_designator]
+                                                      ) [Factor]
+                                                    ) [TermList_first]
+                                                  ) [Term]
+                                                ) [ExprMore_first]
+                                              ) [Expr]
+                                              CommaNumConst_e(
+                                              ) [CommaNumConst_e]
+                                            ) [Statement_print]
+                                          ) [Statement_single]
+                                          MoreStatements_yes(
+                                            Statement_single(
+                                              Statement_print(
+                                                Expr(
+                                                  ExprMore_first(
+                                                    Term(
+                                                      TermList_first(
+                                                        Factor(
+                                                          ExprMinus_e(
+                                                          ) [ExprMinus_e]
+                                                          Factor_designator(
+                                                            DesignatorElem(
+                                                              DesignatorArrName(
+                                                               nizch
+                                                              ) [DesignatorArrName]
+                                                              Expr(
+                                                                ExprMore_first(
+                                                                  Term(
+                                                                    TermList_more(
+                                                                      TermList_first(
+                                                                        Factor(
+                                                                          ExprMinus_e(
+                                                                          ) [ExprMinus_e]
+                                                                          Factor_designator(
+                                                                            DesignatorVar(
+                                                                             jedan
+                                                                            ) [DesignatorVar]
+                                                                          ) [Factor_designator]
+                                                                        ) [Factor]
+                                                                      ) [TermList_first]
+                                                                      Mulop_multiple(
+                                                                      ) [Mulop_multiple]
+                                                                      Factor(
+                                                                        ExprMinus_e(
+                                                                        ) [ExprMinus_e]
+                                                                        Factor_number(
+                                                                         2
+                                                                        ) [Factor_number]
+                                                                      ) [Factor]
+                                                                    ) [TermList_more]
+                                                                  ) [Term]
+                                                                ) [ExprMore_first]
+                                                              ) [Expr]
+                                                            ) [DesignatorElem]
+                                                          ) [Factor_designator]
+                                                        ) [Factor]
+                                                      ) [TermList_first]
+                                                    ) [Term]
+                                                  ) [ExprMore_first]
+                                                ) [Expr]
+                                                CommaNumConst_e(
+                                                ) [CommaNumConst_e]
+                                              ) [Statement_print]
+                                            ) [Statement_single]
+                                            MoreStatements_yes(
+                                              Statement_single(
+                                                Statement_designator(
+                                                  DesignatorStatement_assignop_expr(
+                                                    DesignatorVar(
+                                                     bodovi
+                                                    ) [DesignatorVar]
+                                                    Assignop(
+                                                    ) [Assignop]
+                                                    Expr(
+                                                      ExprMore_yes(
+                                                        ExprMore_yes(
+                                                          ExprMore_first(
+                                                            Term(
+                                                              TermList_first(
+                                                                Factor(
+                                                                  ExprMinus_e(
+                                                                  ) [ExprMinus_e]
+                                                                  Factor_designator(
+                                                                    DesignatorVar(
+                                                                     bodovi
+                                                                    ) [DesignatorVar]
+                                                                  ) [Factor_designator]
+                                                                ) [Factor]
+                                                              ) [TermList_first]
+                                                            ) [Term]
+                                                          ) [ExprMore_first]
+                                                          Addop_plus(
+                                                          ) [Addop_plus]
+                                                          Term(
+                                                            TermList_more(
+                                                              TermList_first(
+                                                                Factor(
+                                                                  ExprMinus_e(
+                                                                  ) [ExprMinus_e]
+                                                                  Factor_expr(
+                                                                    Expr(
+                                                                      ExprMore_yes(
+                                                                        ExprMore_first(
+                                                                          Term(
+                                                                            TermList_more(
+                                                                              TermList_first(
+                                                                                Factor(
+                                                                                  ExprMinus_e(
+                                                                                  ) [ExprMinus_e]
+                                                                                  Factor_designator(
+                                                                                    DesignatorVar(
+                                                                                     pet
+                                                                                    ) [DesignatorVar]
+                                                                                  ) [Factor_designator]
+                                                                                ) [Factor]
+                                                                              ) [TermList_first]
+                                                                              Mulop_multiple(
+                                                                              ) [Mulop_multiple]
+                                                                              Factor(
+                                                                                ExprMinus_e(
+                                                                                ) [ExprMinus_e]
+                                                                                Factor_designator(
+                                                                                  DesignatorVar(
+                                                                                   jedan
+                                                                                  ) [DesignatorVar]
+                                                                                ) [Factor_designator]
+                                                                              ) [Factor]
+                                                                            ) [TermList_more]
+                                                                          ) [Term]
+                                                                        ) [ExprMore_first]
+                                                                        Addop_minus(
+                                                                        ) [Addop_minus]
+                                                                        Term(
+                                                                          TermList_first(
+                                                                            Factor(
+                                                                              ExprMinus_e(
+                                                                              ) [ExprMinus_e]
+                                                                              Factor_number(
+                                                                               1
+                                                                              ) [Factor_number]
+                                                                            ) [Factor]
+                                                                          ) [TermList_first]
+                                                                        ) [Term]
+                                                                      ) [ExprMore_yes]
+                                                                    ) [Expr]
+                                                                  ) [Factor_expr]
+                                                                ) [Factor]
+                                                              ) [TermList_first]
+                                                              Mulop_multiple(
+                                                              ) [Mulop_multiple]
+                                                              Factor(
+                                                                ExprMinus_e(
+                                                                ) [ExprMinus_e]
+                                                                Factor_designator(
+                                                                  DesignatorVar(
+                                                                   bodovi
+                                                                  ) [DesignatorVar]
+                                                                ) [Factor_designator]
+                                                              ) [Factor]
+                                                            ) [TermList_more]
+                                                          ) [Term]
+                                                        ) [ExprMore_yes]
+                                                        Addop_minus(
+                                                        ) [Addop_minus]
+                                                        Term(
+                                                          TermList_first(
+                                                            Factor(
+                                                              ExprMinus_e(
+                                                              ) [ExprMinus_e]
+                                                              Factor_expr(
+                                                                Expr(
+                                                                  ExprMore_yes(
+                                                                    ExprMore_yes(
+                                                                      ExprMore_first(
+                                                                        Term(
+                                                                          TermList_more(
+                                                                            TermList_first(
+                                                                              Factor(
+                                                                                ExprMinus_e(
+                                                                                ) [ExprMinus_e]
+                                                                                Factor_number(
+                                                                                 3
+                                                                                ) [Factor_number]
+                                                                              ) [Factor]
+                                                                            ) [TermList_first]
+                                                                            Mulop_percent(
+                                                                            ) [Mulop_percent]
+                                                                            Factor(
+                                                                              ExprMinus_e(
+                                                                              ) [ExprMinus_e]
+                                                                              Factor_number(
+                                                                               2
+                                                                              ) [Factor_number]
+                                                                            ) [Factor]
+                                                                          ) [TermList_more]
+                                                                        ) [Term]
+                                                                      ) [ExprMore_first]
+                                                                      Addop_plus(
+                                                                      ) [Addop_plus]
+                                                                      Term(
+                                                                        TermList_more(
+                                                                          TermList_first(
+                                                                            Factor(
+                                                                              ExprMinus_e(
+                                                                              ) [ExprMinus_e]
+                                                                              Factor_number(
+                                                                               3
+                                                                              ) [Factor_number]
+                                                                            ) [Factor]
+                                                                          ) [TermList_first]
+                                                                          Mulop_multiple(
+                                                                          ) [Mulop_multiple]
+                                                                          Factor(
+                                                                            ExprMinus_e(
+                                                                            ) [ExprMinus_e]
+                                                                            Factor_number(
+                                                                             2
+                                                                            ) [Factor_number]
+                                                                          ) [Factor]
+                                                                        ) [TermList_more]
+                                                                      ) [Term]
+                                                                    ) [ExprMore_yes]
+                                                                    Addop_minus(
+                                                                    ) [Addop_minus]
+                                                                    Term(
+                                                                      TermList_first(
+                                                                        Factor(
+                                                                          ExprMinus_e(
+                                                                          ) [ExprMinus_e]
+                                                                          Factor_number(
+                                                                           3
+                                                                          ) [Factor_number]
+                                                                        ) [Factor]
+                                                                      ) [TermList_first]
+                                                                    ) [Term]
+                                                                  ) [ExprMore_yes]
+                                                                ) [Expr]
+                                                              ) [Factor_expr]
+                                                            ) [Factor]
+                                                          ) [TermList_first]
+                                                        ) [Term]
+                                                      ) [ExprMore_yes]
+                                                    ) [Expr]
+                                                  ) [DesignatorStatement_assignop_expr]
+                                                ) [Statement_designator]
+                                              ) [Statement_single]
+                                              MoreStatements_yes(
+                                                Statement_single(
+                                                  Statement_print(
+                                                    Expr(
+                                                      ExprMore_first(
+                                                        Term(
+                                                          TermList_first(
+                                                            Factor(
+                                                              ExprMinus_e(
+                                                              ) [ExprMinus_e]
+                                                              Factor_designator(
+                                                                DesignatorVar(
+                                                                 bodovi
+                                                                ) [DesignatorVar]
+                                                              ) [Factor_designator]
+                                                            ) [Factor]
+                                                          ) [TermList_first]
+                                                        ) [Term]
+                                                      ) [ExprMore_first]
+                                                    ) [Expr]
+                                                    CommaNumConst_e(
+                                                    ) [CommaNumConst_e]
+                                                  ) [Statement_print]
+                                                ) [Statement_single]
+                                                MoreStatements_yes(
+                                                  Statement_single(
+                                                    Statement_read(
+                                                      DesignatorVar(
+                                                       bodovi
+                                                      ) [DesignatorVar]
+                                                    ) [Statement_read]
+                                                  ) [Statement_single]
+                                                  MoreStatements_yes(
+                                                    Statement_single(
+                                                      Statement_designator(
+                                                        DesignatorStatement_assignop_expr(
+                                                          DesignatorVar(
+                                                           bt
+                                                          ) [DesignatorVar]
+                                                          Assignop(
+                                                          ) [Assignop]
+                                                          Expr(
+                                                            ExprMore_first(
+                                                              Term(
+                                                                TermList_first(
+                                                                  Factor(
+                                                                    ExprMinus_e(
+                                                                    ) [ExprMinus_e]
+                                                                    Factor_bool(
+                                                                     1
+                                                                    ) [Factor_bool]
+                                                                  ) [Factor]
+                                                                ) [TermList_first]
+                                                              ) [Term]
+                                                            ) [ExprMore_first]
+                                                          ) [Expr]
+                                                        ) [DesignatorStatement_assignop_expr]
+                                                      ) [Statement_designator]
+                                                    ) [Statement_single]
+                                                    MoreStatements_e(
+                                                    ) [MoreStatements_e]
+                                                  ) [MoreStatements_yes]
+                                                ) [MoreStatements_yes]
+                                              ) [MoreStatements_yes]
+                                            ) [MoreStatements_yes]
+                                          ) [MoreStatements_yes]
+                                        ) [MoreStatements_yes]
+                                      ) [MoreStatements_yes]
+                                    ) [MoreStatements_yes]
+                                  ) [MoreStatements_yes]
+                                ) [MoreStatements_yes]
+                              ) [MoreStatements_yes]
+                            ) [MoreStatements_yes]
+                          ) [MoreStatements_yes]
+                        ) [MoreStatements_yes]
+                      ) [MoreStatements_yes]
+                    ) [MoreStatements_yes]
+                  ) [MoreStatements_yes]
+                ) [MoreStatements_yes]
+              ) [MoreStatements_yes]
+            ) [MoreStatements_yes]
+          ) [MoreStatements_yes]
+        ) [MoreStatements_yes]
+      ) [MoreStatements_yes]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  14:37:22,499 - ===================================
+INFO  14:37:22,502 - ===================================
+INFO  14:37:22,511 - Parsiranje uspesno zavrseno!

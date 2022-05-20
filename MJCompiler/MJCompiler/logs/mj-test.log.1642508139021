@@ -1,0 +1,235 @@
+INFO  13:15:28,337 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  13:15:28,358 - #2 program
+INFO  13:15:28,358 - #36 Keske
+INFO  13:15:28,358 - #18 const
+INFO  13:15:28,359 - #36 int
+INFO  13:15:28,359 - #36 pi
+INFO  13:15:28,360 - #23 =
+INFO  13:15:28,360 - #34 3
+INFO  13:15:28,360 - #16 ;
+INFO  13:15:28,361 - #36 int
+INFO  13:15:28,361 - #36 x
+INFO  13:15:28,361 - #17 ,
+INFO  13:15:28,363 - #36 y
+INFO  13:15:28,363 - #24 [
+INFO  13:15:28,363 - #25 ]
+INFO  13:15:28,363 - #16 ;
+INFO  13:15:28,364 - #36 char
+INFO  13:15:28,365 - #36 c
+INFO  13:15:28,365 - #16 ;
+INFO  13:15:28,365 - #5 {
+INFO  13:15:28,365 - #27 void
+INFO  13:15:28,365 - #36 main
+INFO  13:15:28,365 - #28 (
+INFO  13:15:28,365 - #29 )
+INFO  13:15:28,365 - #36 int
+INFO  13:15:28,365 - #36 a
+INFO  13:15:28,365 - #17 ,
+INFO  13:15:28,366 - #36 i
+INFO  13:15:28,366 - #24 [
+INFO  13:15:28,366 - #25 ]
+INFO  13:15:28,366 - #17 ,
+INFO  13:15:28,366 - #36 j
+INFO  13:15:28,366 - #17 ,
+INFO  13:15:28,366 - #36 b
+INFO  13:15:28,366 - #24 [
+INFO  13:15:28,366 - #25 ]
+INFO  13:15:28,366 - #16 ;
+INFO  13:15:28,366 - #36 bool
+INFO  13:15:28,366 - #36 d
+INFO  13:15:28,366 - #16 ;
+INFO  13:15:28,366 - #36 char
+INFO  13:15:28,366 - #36 ch
+INFO  13:15:28,366 - #16 ;
+INFO  13:15:28,366 - #5 {
+INFO  13:15:28,367 - #36 b
+INFO  13:15:28,367 - #24 [
+INFO  13:15:28,367 - #34 2
+INFO  13:15:28,368 - #25 ]
+INFO  13:15:28,370 - #23 =
+INFO  13:15:28,370 - #36 ch
+INFO  13:15:28,370 - #16 ;
+INFO  13:15:28,371 - #7 }
+INFO  13:15:28,371 - #7 }
+INFO  13:15:28,378 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_con(
+        ConVarDeclList_e(
+        ) [ConVarDeclList_e]
+        ConDeclList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           pi
+            Const_n(
+             3
+            ) [Const_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclList]
+      ) [ConVarDeclList_con]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_comma(
+          VarDecl(
+           y
+            Brackets_yes(
+            ) [Brackets_yes]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarDecl(
+       c
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    Main(
+     main
+    ) [Main]
+    MoreVarDeclList_yes(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         a
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_comma(
+          VarDecl(
+           i
+            Brackets_yes(
+            ) [Brackets_yes]
+          ) [VarDecl]
+          VarDeclMore_comma(
+            VarDecl(
+             j
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_comma(
+              VarDecl(
+               b
+                Brackets_yes(
+                ) [Brackets_yes]
+              ) [VarDecl]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclMore_comma]
+          ) [VarDeclMore_comma]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+      MoreVarDeclList_yes(
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl(
+           d
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        MoreVarDeclList_yes(
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarDecl(
+             ch
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+          MoreVarDeclList_e(
+          ) [MoreVarDeclList_e]
+        ) [MoreVarDeclList_yes]
+      ) [MoreVarDeclList_yes]
+    ) [MoreVarDeclList_yes]
+    Statements(
+      MoreStatements_yes(
+        Statement_single(
+          Statement_designator(
+            DesignatorStatement_assignop_expr(
+              DesignatorElem(
+                DesignatorArrName(
+                 b
+                ) [DesignatorArrName]
+                Expr(
+                  ExprMore_first(
+                    Term(
+                      TermList_first(
+                        Factor(
+                          ExprMinus_e(
+                          ) [ExprMinus_e]
+                          Factor_number(
+                           2
+                          ) [Factor_number]
+                        ) [Factor]
+                      ) [TermList_first]
+                    ) [Term]
+                  ) [ExprMore_first]
+                ) [Expr]
+              ) [DesignatorElem]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                ExprMore_first(
+                  Term(
+                    TermList_first(
+                      Factor(
+                        ExprMinus_e(
+                        ) [ExprMinus_e]
+                        Factor_designator(
+                          DesignatorVar(
+                           ch
+                          ) [DesignatorVar]
+                        ) [Factor_designator]
+                      ) [Factor]
+                    ) [TermList_first]
+                  ) [Term]
+                ) [ExprMore_first]
+              ) [Expr]
+            ) [DesignatorStatement_assignop_expr]
+          ) [Statement_designator]
+        ) [Statement_single]
+        MoreStatements_e(
+        ) [MoreStatements_e]
+      ) [MoreStatements_yes]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  13:15:28,378 - ===================================
+ERROR 13:15:28,380 - Dodele razlicitih tipova na liniji 10
+INFO  13:15:28,381 - ===================================
+ERROR 13:15:28,381 - Parsiranje NIJE uspesno zavrseno!

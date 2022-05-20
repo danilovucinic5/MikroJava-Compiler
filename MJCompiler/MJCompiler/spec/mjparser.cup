@@ -1,0 +1,219 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, NEW, MINUS, LBRACE, DOT, RBRACE, MULTIPLE, DIVIDE, PERCENT, LESSOREQUAL, PLUS, PLUSPLUS, LESS, MINUSMINUS, SEMICOLON, COMMA, CONST, DBLEQUAL, GRATHER, GRATHEROREQUAL, NOTEQUAL, EQUAL, LBRACKET, RBRACKET, PRINT, VOID, LPAR, RPAR, COLON, RETURN, READ, GOTO;
+terminal Integer NUMBER, BOOL;
+terminal String IDENT;
+terminal Character CHAR;
+
+nonterminal Program, Relop, Mulop, Addop, ConVarDeclList, Assignop, MethDecl, ConDeclList, MoreStatements, ConDecl, Const, CommaNumConst, VarDeclList, ConDeclMore, Brackets, VarDeclMore, MoreVarDeclList, Statement, Statements, Label, SingleStatement, DesignatorStatement;
+nonterminal ProgramName, VarDecl, LabelColon;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor, FactorLow, Type, Expr, Term, ExprMore, TermList, ExprMinus;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj DesignatorArrName, Designator, Main;
+
+Program ::= (Program) PROG ProgramName ConVarDeclList LBRACE MethDecl RBRACE;
+
+ProgramName ::= (ProgramName) IDENT ;
+
+ConVarDeclList ::= 	(ConVarDeclList_con) ConVarDeclList ConDeclList
+					|
+					(ConVarDeclList_var) ConVarDeclList VarDeclList
+					|
+					(ConVarDeclList_e) 
+					;
+
+/* {} 0-beskonacno () 1-1 [] 0-1 */
+
+ConDeclList ::= (ConDeclList) CONST Type ConDecl ConDeclMore SEMICOLON ;
+
+ConDecl ::= (ConDecl) IDENT EQUAL Const ;
+
+ConDeclMore ::= (ConDeclMore_comma) COMMA ConDecl ConDeclMore
+				|
+				(ConDeclMore_e)
+				;
+
+Const ::= (Const_n) NUMBER | (Const_c) CHAR | (Const_b) BOOL;
+
+VarDeclList ::= (VarDeclList) Type VarDecl VarDeclMore SEMICOLON ;
+
+
+Brackets ::= (Brackets_yes) LBRACKET RBRACKET
+			 |
+			 (Brackets_e)
+			 ;
+
+VarDeclMore ::= (VarDeclMore_comma) COMMA VarDecl VarDeclMore
+				|
+				(VarDeclMore_e)
+				;
+				
+VarDecl ::= (VarDecl) IDENT Brackets;
+
+Type ::= (Type) IDENT;
+
+MethDecl ::= (MethDecl) VOID Main LPAR RPAR MoreVarDeclList Statements ;
+
+Main ::= (Main) IDENT;
+
+MoreVarDeclList ::= (MoreVarDeclList_yes) VarDeclList MoreVarDeclList
+					|
+					(MoreVarDeclList_e)
+					;
+
+Statements ::= (Statements) LBRACE MoreStatements RBRACE;
+
+
+MoreStatements ::= (MoreStatements_yes) Statement MoreStatements
+					|
+					(MoreStatements_e) ;
+
+Statement ::= 	(Statement_single_label) LabelColon SingleStatement
+				|
+				(Statement_single) SingleStatement
+				|
+				(Statement_more) Statements;
+
+LabelColon ::= (LabelColon) Label COLON;
+				
+SingleStatement ::= (Statement_designator) DesignatorStatement SEMICOLON
+					|
+					(Statement_return) RETURN SEMICOLON
+					|
+					(Statement_read) READ LPAR Designator RPAR SEMICOLON
+					|
+					(Statement_print) PRINT LPAR Expr CommaNumConst RPAR SEMICOLON
+					|
+					(Statement_goto) GOTO Label SEMICOLON
+					 ;
+
+
+CommaNumConst ::= (CommaNumConst_yes) COMMA NUMBER
+				  |
+				  (CommaNumConst_e) ;
+				  
+
+
+DesignatorStatement ::= (DesignatorStatement_assignop_expr) Designator Assignop Expr
+							|
+							(DesignatorStatement_plusplus) Designator PLUSPLUS 
+							|
+
+							(DesignatorStatement_minusminus) Designator MINUSMINUS;
+			  
+Expr ::= (Expr)  ExprMore	;
+
+
+
+ExprMore ::= (ExprMore_yes) ExprMore Addop Term 
+			|
+			(ExprMore_first) Term;
+			
+		
+ExprMinus ::= (ExprMinus_yes) MINUS
+			|
+			(ExprMinus_e) ;
+			
+							
+Term ::= (Term)  TermList;
+
+TermList ::= (TermList_more) TermList Mulop Factor
+			|
+			(TermList_first) Factor
+			;
+			
+Factor ::= (Factor) ExprMinus FactorLow;
+
+FactorLow ::= (Factor_designator) Designator
+		 |
+		 (Factor_number) NUMBER
+		 |
+		 (Factor_char) CHAR	
+		 |
+		 (Factor_bool) BOOL
+		 |
+		 (Factor_new) NEW Type LBRACKET Expr RBRACKET
+		  |
+		 (Factor_expr) LPAR Expr RPAR
+		 ;
+	
+Designator ::= (DesignatorVar) IDENT | (DesignatorElem) DesignatorArrName LBRACKET Expr RBRACKET	;	
+
+DesignatorArrName ::= (DesignatorArrName) IDENT; 
+
+Label ::= (Label) IDENT;
+
+Assignop ::= (Assignop) EQUAL;
+
+Relop ::= 	(Relop_dblequal) DBLEQUAL
+			|
+			(Relop_notequal) NOTEQUAL
+			|
+			(Relop_grather) GRATHER
+			|
+			(Relop_gratherorequal) GRATHEROREQUAL
+			|
+			(Relop_less) LESS
+			|
+			(Relop_lessorequal) LESSOREQUAL
+			;
+
+Addop ::= (Addop_plus) PLUS
+			|
+		  (Addop_minus) MINUS
+			;
+Mulop ::= (Mulop_multiple) MULTIPLE
+			|
+		  (Mulop_divide) DIVIDE
+		  |
+		  (Mulop_percent) PERCENT
+			;

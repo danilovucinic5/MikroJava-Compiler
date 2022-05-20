@@ -1,0 +1,134 @@
+INFO  13:26:21,519 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  13:26:21,540 - #2 program
+INFO  13:26:21,541 - #36 Keske
+INFO  13:26:21,541 - #18 const
+INFO  13:26:21,542 - #36 int
+INFO  13:26:21,542 - #36 pi
+INFO  13:26:21,543 - #23 =
+INFO  13:26:21,543 - #34 3
+INFO  13:26:21,543 - #16 ;
+INFO  13:26:21,544 - #36 int
+INFO  13:26:21,545 - #36 x
+INFO  13:26:21,545 - #17 ,
+INFO  13:26:21,546 - #36 y
+INFO  13:26:21,546 - #24 [
+INFO  13:26:21,546 - #25 ]
+INFO  13:26:21,546 - #16 ;
+INFO  13:26:21,547 - #5 {
+INFO  13:26:21,548 - #27 void
+INFO  13:26:21,549 - #36 main
+INFO  13:26:21,549 - #28 (
+INFO  13:26:21,549 - #29 )
+INFO  13:26:21,549 - #36 int
+INFO  13:26:21,549 - #36 a
+INFO  13:26:21,549 - #17 ,
+INFO  13:26:21,549 - #36 b
+INFO  13:26:21,549 - #24 [
+INFO  13:26:21,549 - #25 ]
+INFO  13:26:21,549 - #17 ,
+INFO  13:26:21,549 - #36 c
+INFO  13:26:21,549 - #16 ;
+INFO  13:26:21,549 - #36 bool
+INFO  13:26:21,549 - #36 b
+INFO  13:26:21,549 - #16 ;
+INFO  13:26:21,549 - #5 {
+INFO  13:26:21,550 - #7 }
+INFO  13:26:21,551 - #7 }
+INFO  13:26:21,557 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_comma(
+        VarDecl(
+         y
+          Brackets_yes(
+          ) [Brackets_yes]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+   main
+    MoreVarDeclList_yes(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         a
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_comma(
+          VarDecl(
+           b
+            Brackets_yes(
+            ) [Brackets_yes]
+          ) [VarDecl]
+          VarDeclMore_comma(
+            VarDecl(
+             c
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_comma]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+      MoreVarDeclList_yes(
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl(
+           b
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        MoreVarDeclList_e(
+        ) [MoreVarDeclList_e]
+      ) [MoreVarDeclList_yes]
+    ) [MoreVarDeclList_yes]
+    Statements(
+      MoreStatements_e(
+      ) [MoreStatements_e]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  13:26:21,557 - ===================================
+ERROR 13:26:21,558 - Dvostruka definicija konstante b na liniji 6
+INFO  13:26:21,559 - ===================================
+ERROR 13:26:21,559 - Parsiranje NIJE uspesno zavrseno!

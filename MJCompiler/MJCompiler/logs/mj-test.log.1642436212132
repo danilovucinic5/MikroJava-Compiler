@@ -1,0 +1,165 @@
+INFO  17:15:11,763 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  17:15:11,791 - #2 program
+INFO  17:15:11,792 - #36 Keske
+INFO  17:15:11,792 - #18 const
+INFO  17:15:11,793 - #36 int
+INFO  17:15:11,793 - #36 pi
+INFO  17:15:11,793 - #23 =
+INFO  17:15:11,793 - #34 3
+INFO  17:15:11,793 - #16 ;
+INFO  17:15:11,794 - #36 int
+INFO  17:15:11,795 - #36 x
+INFO  17:15:11,795 - #17 ,
+INFO  17:15:11,796 - #36 y
+INFO  17:15:11,796 - #24 [
+INFO  17:15:11,797 - #25 ]
+INFO  17:15:11,797 - #16 ;
+INFO  17:15:11,798 - #5 {
+INFO  17:15:11,798 - #27 void
+INFO  17:15:11,798 - #36 main
+INFO  17:15:11,799 - #28 (
+INFO  17:15:11,799 - #29 )
+INFO  17:15:11,799 - #36 int
+INFO  17:15:11,799 - #36 a
+INFO  17:15:11,799 - #17 ,
+INFO  17:15:11,799 - #36 b
+INFO  17:15:11,799 - #24 [
+INFO  17:15:11,799 - #25 ]
+INFO  17:15:11,799 - #17 ,
+INFO  17:15:11,800 - #36 c
+INFO  17:15:11,800 - #16 ;
+INFO  17:15:11,800 - #36 bool
+INFO  17:15:11,800 - #36 d
+INFO  17:15:11,800 - #16 ;
+INFO  17:15:11,800 - #5 {
+INFO  17:15:11,800 - #26 print
+INFO  17:15:11,800 - #28 (
+INFO  17:15:11,801 - #4 -
+INFO  17:15:11,801 - #35 1
+INFO  17:15:11,801 - #29 )
+INFO  17:15:11,803 - #16 ;
+INFO  17:15:11,804 - #7 }
+INFO  17:15:11,804 - #7 }
+INFO  17:15:11,811 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_comma(
+        VarDecl(
+         y
+          Brackets_yes(
+          ) [Brackets_yes]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    Main(
+     main
+    ) [Main]
+    MoreVarDeclList_yes(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         a
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_comma(
+          VarDecl(
+           b
+            Brackets_yes(
+            ) [Brackets_yes]
+          ) [VarDecl]
+          VarDeclMore_comma(
+            VarDecl(
+             c
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_comma]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+      MoreVarDeclList_yes(
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl(
+           d
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        MoreVarDeclList_e(
+        ) [MoreVarDeclList_e]
+      ) [MoreVarDeclList_yes]
+    ) [MoreVarDeclList_yes]
+    Statements(
+      MoreStatements_yes(
+        Statement_single(
+          Statement_print(
+            Expr(
+              ExprMore_first(
+                Term(
+                  TermList_first(
+                    Factor(
+                      ExprMinus_yes(
+                      ) [ExprMinus_yes]
+                      Factor_bool(
+                       1
+                      ) [Factor_bool]
+                    ) [Factor]
+                  ) [TermList_first]
+                ) [Term]
+              ) [ExprMore_first]
+            ) [Expr]
+            CommaNumConst_e(
+            ) [CommaNumConst_e]
+          ) [Statement_print]
+        ) [Statement_single]
+        MoreStatements_e(
+        ) [MoreStatements_e]
+      ) [MoreStatements_yes]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  17:15:11,811 - ===================================
+ERROR 17:15:11,813 - Negacija ne int vrednosti na liniji 8
+INFO  17:15:11,813 - ===================================
+ERROR 17:15:11,814 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,107 @@
+INFO  19:56:02,598 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  19:56:02,618 - #2 program
+INFO  19:56:02,619 - #36 Keske
+INFO  19:56:02,619 - #18 const
+INFO  19:56:02,620 - #36 int
+INFO  19:56:02,620 - #36 pi
+INFO  19:56:02,620 - #23 =
+INFO  19:56:02,620 - #34 3
+INFO  19:56:02,620 - #16 ;
+INFO  19:56:02,621 - #36 int
+INFO  19:56:02,622 - #36 x
+INFO  19:56:02,622 - #17 ,
+INFO  19:56:02,623 - #36 y
+INFO  19:56:02,623 - #24 [
+INFO  19:56:02,623 - #25 ]
+INFO  19:56:02,623 - #16 ;
+INFO  19:56:02,624 - #5 {
+INFO  19:56:02,625 - #27 void
+INFO  19:56:02,625 - #36 main
+INFO  19:56:02,625 - #28 (
+INFO  19:56:02,625 - #29 )
+INFO  19:56:02,626 - #36 int
+INFO  19:56:02,626 - #36 a
+INFO  19:56:02,626 - #17 ,
+INFO  19:56:02,626 - #36 b
+INFO  19:56:02,626 - #16 ;
+INFO  19:56:02,626 - #5 {
+INFO  19:56:02,626 - #7 }
+INFO  19:56:02,627 - #7 }
+INFO  19:56:02,632 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_comma(
+        VarDecl(
+         y
+          Brackets_yes(
+          ) [Brackets_yes]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    Main(
+     main
+    ) [Main]
+    MoreVarDeclList_yes(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         a
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_comma(
+          VarDecl(
+           b
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+      MoreVarDeclList_e(
+      ) [MoreVarDeclList_e]
+    ) [MoreVarDeclList_yes]
+    Statements(
+      MoreStatements_e(
+      ) [MoreStatements_e]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  19:56:02,633 - ===================================
+INFO  19:56:02,635 - ===================================
+INFO  19:56:02,643 - Parsiranje uspesno zavrseno!

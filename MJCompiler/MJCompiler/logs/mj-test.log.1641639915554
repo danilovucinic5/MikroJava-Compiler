@@ -1,0 +1,52 @@
+INFO  13:29:55,190 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  13:29:55,233 - #2 program
+INFO  13:29:55,233 - #36 Keske
+INFO  13:29:55,233 - #18 const
+INFO  13:29:55,275 - #36 int
+INFO  13:29:55,276 - #36 pi
+INFO  13:29:55,276 - #23 =
+INFO  13:29:55,277 - #35 1
+INFO  13:29:55,279 - #16 ;
+INFO  13:29:55,302 - #5 {
+INFO  13:29:55,307 - #27 void
+INFO  13:29:55,307 - #36 main
+INFO  13:29:55,307 - #28 (
+INFO  13:29:55,307 - #29 )
+INFO  13:29:55,308 - #5 {
+INFO  13:29:55,308 - #7 }
+INFO  13:29:55,310 - #7 }
+INFO  13:29:55,326 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       pi
+        Const_b(
+         1
+        ) [Const_b]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDeclList]
+  ) [ConVarDeclList_con]
+  MethDecl(
+   main
+    MoreVarDeclList_e(
+    ) [MoreVarDeclList_e]
+    Statements(
+      MoreStatements_e(
+      ) [MoreStatements_e]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  13:29:55,327 - ===================================
+ERROR 13:29:55,330 - Neadekvatna dodela konstante pi na liniji 3
+INFO  13:29:55,331 - ===================================
+ERROR 13:29:55,334 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,404 @@
+INFO  12:55:32,379 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  12:55:32,419 - #2 program
+INFO  12:55:32,420 - #36 Keske
+INFO  12:55:32,420 - #18 const
+INFO  12:55:32,422 - #36 int
+INFO  12:55:32,422 - #36 pi
+INFO  12:55:32,423 - #23 =
+INFO  12:55:32,423 - #34 3
+INFO  12:55:32,423 - #16 ;
+INFO  12:55:32,425 - #36 int
+INFO  12:55:32,426 - #36 x
+INFO  12:55:32,426 - #17 ,
+INFO  12:55:32,428 - #36 y
+INFO  12:55:32,429 - #24 [
+INFO  12:55:32,429 - #25 ]
+INFO  12:55:32,429 - #16 ;
+INFO  12:55:32,430 - #5 {
+INFO  12:55:32,431 - #27 void
+INFO  12:55:32,432 - #36 main
+INFO  12:55:32,432 - #28 (
+INFO  12:55:32,432 - #29 )
+INFO  12:55:32,432 - #36 int
+INFO  12:55:32,433 - #36 a
+INFO  12:55:32,433 - #24 [
+INFO  12:55:32,433 - #25 ]
+INFO  12:55:32,433 - #17 ,
+INFO  12:55:32,433 - #36 b
+INFO  12:55:32,433 - #24 [
+INFO  12:55:32,433 - #25 ]
+INFO  12:55:32,433 - #16 ;
+INFO  12:55:32,433 - #36 char
+INFO  12:55:32,433 - #36 c
+INFO  12:55:32,433 - #17 ,
+INFO  12:55:32,433 - #36 ch
+INFO  12:55:32,433 - #24 [
+INFO  12:55:32,433 - #25 ]
+INFO  12:55:32,433 - #16 ;
+INFO  12:55:32,433 - #36 bool
+INFO  12:55:32,433 - #36 bl
+INFO  12:55:32,433 - #16 ;
+INFO  12:55:32,434 - #5 {
+INFO  12:55:32,435 - #26 print
+INFO  12:55:32,435 - #28 (
+INFO  12:55:32,435 - #34 0
+INFO  12:55:32,436 - #29 )
+INFO  12:55:32,440 - #16 ;
+INFO  12:55:32,440 - #26 print
+INFO  12:55:32,440 - #28 (
+INFO  12:55:32,440 - #36 eol
+INFO  12:55:32,441 - #29 )
+INFO  12:55:32,441 - #16 ;
+INFO  12:55:32,441 - #33 goto
+INFO  12:55:32,441 - #36 l1
+INFO  12:55:32,441 - #16 ;
+INFO  12:55:32,442 - #36 l2
+INFO  12:55:32,442 - #30 :
+INFO  12:55:32,442 - #26 print
+INFO  12:55:32,443 - #28 (
+INFO  12:55:32,443 - #34 2
+INFO  12:55:32,443 - #29 )
+INFO  12:55:32,443 - #16 ;
+INFO  12:55:32,444 - #26 print
+INFO  12:55:32,444 - #28 (
+INFO  12:55:32,444 - #36 eol
+INFO  12:55:32,444 - #29 )
+INFO  12:55:32,444 - #16 ;
+INFO  12:55:32,444 - #26 print
+INFO  12:55:32,444 - #28 (
+INFO  12:55:32,444 - #37 c
+INFO  12:55:32,447 - #29 )
+INFO  12:55:32,447 - #16 ;
+INFO  12:55:32,447 - #31 return
+INFO  12:55:32,447 - #16 ;
+INFO  12:55:32,447 - #36 l1
+INFO  12:55:32,448 - #30 :
+INFO  12:55:32,448 - #26 print
+INFO  12:55:32,448 - #28 (
+INFO  12:55:32,448 - #34 1
+INFO  12:55:32,448 - #29 )
+INFO  12:55:32,448 - #16 ;
+INFO  12:55:32,448 - #26 print
+INFO  12:55:32,448 - #28 (
+INFO  12:55:32,448 - #36 eol
+INFO  12:55:32,448 - #29 )
+INFO  12:55:32,449 - #16 ;
+INFO  12:55:32,449 - #33 goto
+INFO  12:55:32,449 - #36 l2
+INFO  12:55:32,449 - #16 ;
+INFO  12:55:32,449 - #7 }
+INFO  12:55:32,450 - #7 }
+INFO  12:55:32,458 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_comma(
+        VarDecl(
+         y
+          Brackets_yes(
+          ) [Brackets_yes]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    Main(
+     main
+    ) [Main]
+    MoreVarDeclList_yes(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         a
+          Brackets_yes(
+          ) [Brackets_yes]
+        ) [VarDecl]
+        VarDeclMore_comma(
+          VarDecl(
+           b
+            Brackets_yes(
+            ) [Brackets_yes]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+      MoreVarDeclList_yes(
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl(
+           c
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_comma(
+            VarDecl(
+             ch
+              Brackets_yes(
+              ) [Brackets_yes]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_comma]
+        ) [VarDeclList]
+        MoreVarDeclList_yes(
+          VarDeclList(
+            Type(
+             bool
+            ) [Type]
+            VarDecl(
+             bl
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+          MoreVarDeclList_e(
+          ) [MoreVarDeclList_e]
+        ) [MoreVarDeclList_yes]
+      ) [MoreVarDeclList_yes]
+    ) [MoreVarDeclList_yes]
+    Statements(
+      MoreStatements_yes(
+        Statement_single(
+          Statement_print(
+            Expr(
+              ExprMore_first(
+                Term(
+                  TermList_first(
+                    Factor(
+                      ExprMinus_e(
+                      ) [ExprMinus_e]
+                      Factor_number(
+                       0
+                      ) [Factor_number]
+                    ) [Factor]
+                  ) [TermList_first]
+                ) [Term]
+              ) [ExprMore_first]
+            ) [Expr]
+            CommaNumConst_e(
+            ) [CommaNumConst_e]
+          ) [Statement_print]
+        ) [Statement_single]
+        MoreStatements_yes(
+          Statement_single(
+            Statement_print(
+              Expr(
+                ExprMore_first(
+                  Term(
+                    TermList_first(
+                      Factor(
+                        ExprMinus_e(
+                        ) [ExprMinus_e]
+                        Factor_designator(
+                          DesignatorVar(
+                           eol
+                          ) [DesignatorVar]
+                        ) [Factor_designator]
+                      ) [Factor]
+                    ) [TermList_first]
+                  ) [Term]
+                ) [ExprMore_first]
+              ) [Expr]
+              CommaNumConst_e(
+              ) [CommaNumConst_e]
+            ) [Statement_print]
+          ) [Statement_single]
+          MoreStatements_yes(
+            Statement_single(
+              Statement_goto(
+                Label(
+                 l1
+                ) [Label]
+              ) [Statement_goto]
+            ) [Statement_single]
+            MoreStatements_yes(
+              Statement_single_label(
+                LabelColon(
+                  Label(
+                   l2
+                  ) [Label]
+                ) [LabelColon]
+                Statement_print(
+                  Expr(
+                    ExprMore_first(
+                      Term(
+                        TermList_first(
+                          Factor(
+                            ExprMinus_e(
+                            ) [ExprMinus_e]
+                            Factor_number(
+                             2
+                            ) [Factor_number]
+                          ) [Factor]
+                        ) [TermList_first]
+                      ) [Term]
+                    ) [ExprMore_first]
+                  ) [Expr]
+                  CommaNumConst_e(
+                  ) [CommaNumConst_e]
+                ) [Statement_print]
+              ) [Statement_single_label]
+              MoreStatements_yes(
+                Statement_single(
+                  Statement_print(
+                    Expr(
+                      ExprMore_first(
+                        Term(
+                          TermList_first(
+                            Factor(
+                              ExprMinus_e(
+                              ) [ExprMinus_e]
+                              Factor_designator(
+                                DesignatorVar(
+                                 eol
+                                ) [DesignatorVar]
+                              ) [Factor_designator]
+                            ) [Factor]
+                          ) [TermList_first]
+                        ) [Term]
+                      ) [ExprMore_first]
+                    ) [Expr]
+                    CommaNumConst_e(
+                    ) [CommaNumConst_e]
+                  ) [Statement_print]
+                ) [Statement_single]
+                MoreStatements_yes(
+                  Statement_single(
+                    Statement_print(
+                      Expr(
+                        ExprMore_first(
+                          Term(
+                            TermList_first(
+                              Factor(
+                                ExprMinus_e(
+                                ) [ExprMinus_e]
+                                Factor_char(
+                                 c
+                                ) [Factor_char]
+                              ) [Factor]
+                            ) [TermList_first]
+                          ) [Term]
+                        ) [ExprMore_first]
+                      ) [Expr]
+                      CommaNumConst_e(
+                      ) [CommaNumConst_e]
+                    ) [Statement_print]
+                  ) [Statement_single]
+                  MoreStatements_yes(
+                    Statement_single(
+                      Statement_return(
+                      ) [Statement_return]
+                    ) [Statement_single]
+                    MoreStatements_yes(
+                      Statement_single_label(
+                        LabelColon(
+                          Label(
+                           l1
+                          ) [Label]
+                        ) [LabelColon]
+                        Statement_print(
+                          Expr(
+                            ExprMore_first(
+                              Term(
+                                TermList_first(
+                                  Factor(
+                                    ExprMinus_e(
+                                    ) [ExprMinus_e]
+                                    Factor_number(
+                                     1
+                                    ) [Factor_number]
+                                  ) [Factor]
+                                ) [TermList_first]
+                              ) [Term]
+                            ) [ExprMore_first]
+                          ) [Expr]
+                          CommaNumConst_e(
+                          ) [CommaNumConst_e]
+                        ) [Statement_print]
+                      ) [Statement_single_label]
+                      MoreStatements_yes(
+                        Statement_single(
+                          Statement_print(
+                            Expr(
+                              ExprMore_first(
+                                Term(
+                                  TermList_first(
+                                    Factor(
+                                      ExprMinus_e(
+                                      ) [ExprMinus_e]
+                                      Factor_designator(
+                                        DesignatorVar(
+                                         eol
+                                        ) [DesignatorVar]
+                                      ) [Factor_designator]
+                                    ) [Factor]
+                                  ) [TermList_first]
+                                ) [Term]
+                              ) [ExprMore_first]
+                            ) [Expr]
+                            CommaNumConst_e(
+                            ) [CommaNumConst_e]
+                          ) [Statement_print]
+                        ) [Statement_single]
+                        MoreStatements_yes(
+                          Statement_single(
+                            Statement_goto(
+                              Label(
+                               l2
+                              ) [Label]
+                            ) [Statement_goto]
+                          ) [Statement_single]
+                          MoreStatements_e(
+                          ) [MoreStatements_e]
+                        ) [MoreStatements_yes]
+                      ) [MoreStatements_yes]
+                    ) [MoreStatements_yes]
+                  ) [MoreStatements_yes]
+                ) [MoreStatements_yes]
+              ) [MoreStatements_yes]
+            ) [MoreStatements_yes]
+          ) [MoreStatements_yes]
+        ) [MoreStatements_yes]
+      ) [MoreStatements_yes]
+    ) [Statements]
+  ) [MethDecl]
+) [Program]
+INFO  12:55:32,458 - ===================================
+INFO  12:55:32,463 - ===================================
+INFO  12:55:32,472 - Parsiranje uspesno zavrseno!
